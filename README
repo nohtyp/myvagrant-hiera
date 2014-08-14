@@ -8,8 +8,3 @@ Vagrant
 
 If you do not want to run the servers concurrently then you can cd into the syseng_cicd directory and run the following: vagrant up and watch the servers
 boot up.
-
-
-Confluence page for the install:
-
-https://confluence.promnetwork.com/display/SE/Building+test+environments+with+vagrant
