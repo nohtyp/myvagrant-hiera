@@ -1,7 +1,7 @@
 domain = 'familyguy.com'
 VAGRANTFILE_API_VERSION = "2"
 #VAGRANT_BOX_URL = "http://developer.nrel.gov/downloads/vagrant-boxes/CentOS-6.4-x86_64-v20130731.box"
-VAGRANT_BOX_URL = "https://nexus.promnetwork.com/content/repositories/sysEng/com/pin/vagrant/6.5-x86_64-minimal/vagrant-6.5-x86_64-minimal.box"
+VAGRANT_BOX_URL = "http://puppet-vagrant-boxes.puppetlabs.com/centos-65-x64-virtualbox-puppet.box"
 VAGRANT_TMP_NAME = "rh6_minimal"
 VBGUI = false
 
