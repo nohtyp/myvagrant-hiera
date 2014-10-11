@@ -1,0 +1,15 @@
+{
+  "LICENSE": "d6869a585931245be85fd4aece485172",
+  "Modulefile": "5d207a0a9a9e3bad6bf53acb6eb07ad1",
+  "README.md": "c4c657d1e5fa61b4d0ab6d52fbfbb418",
+  "Rakefile": "0254db5d3fc38c67a2c160d7296a24f8",
+  "manifests/init.pp": "43c00cdf046330be3050cedab5751028",
+  "manifests/limits.pp": "09aaf98f9d27c4609100949bd95b6689",
+  "manifests/params.pp": "c698cc32c909d33f9abb1dc6a7ac3948",
+  "spec/classes/limits_spec.rb": "291cbaca0a6a8953dafce86ef47c34d5",
+  "spec/defines/limits_spec.rb": "e7e27e251c965203f1a49ac95010d55d",
+  "spec/spec.opts": "a600ded995d948e393fbe2320ba8e51c",
+  "spec/spec_helper.rb": "0db89c9a486df193c0e40095422e19dc",
+  "templates/limits.erb": "3ea5229a171deb651626a48a849d5099",
+  "tests/init.pp": "9570020abdc649eec8e262523b039428"
+}

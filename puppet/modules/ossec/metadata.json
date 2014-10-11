@@ -1,0 +1,29 @@
+{
+  "name": "jgazeley/ossec",
+  "version": "1.2.6",
+  "author": "jgazeley",
+  "summary": "Install and configure OSSEC-HIDS client and server",
+  "license": "GPL 2.0",
+  "source": "https://github.com/djjudas21/puppet-ossec",
+  "project_page": "https://github.com/djjudas21/puppet-ossec",
+  "issues_url": "https://github.com/djjudas21/puppet-ossec/issues",
+  "operatingsystem_support": [
+    {
+      "operatingsystem": "RedHat"
+    },
+    {
+      "operatingsystem": "Ubuntu"
+    },
+    {
+      "operatingsystem": "Debian"
+    },
+    {
+      "operatingsystem": "CentOS"
+    }
+  ],
+  "dependencies": [
+    {"name":"puppetlabs/stdlib"},
+    {"name":"puppetlabs/concat"},
+    {"name":"andyshinn/atomic"}
+  ]
+}

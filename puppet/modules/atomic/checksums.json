@@ -1,0 +1,10 @@
+{
+  "README.md": "fd53c21834f650e565c21be4cbe8e422",
+  "files/RPM-GPG-KEY.art.txt": "5b01d7345f7cce5ce7e297744f640219",
+  "files/RPM-GPG-KEY.atomicorp.txt": "34a848c601562658bd7309681c50f58e",
+  "manifests/init.pp": "dfc07c32d0ab77cb8b91779e67d253b1",
+  "manifests/params.pp": "42f0303e49051df1b62d1c28cfe98af7",
+  "manifests/rpm_gpg_key.pp": "382e43c9eb328aed6f333f9df5b430c2",
+  "metadata.json": "adf13c9368f2367edbcaef6fb1b74e79",
+  "tests/init.pp": "7d8861b913c737667a4a66a549730d44"
+}

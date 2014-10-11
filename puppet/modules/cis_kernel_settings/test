@@ -1,0 +1,15 @@
+$disable_ip_forwarding                   = $sysctl::params::disable_ip_forwarding
+  $disable_all_pkt_redirects               = $sysctl::params::disable_pkt_redirects
+  $disable_default_pkt_redirects           = $sysctl::params::disable_default_pkt_redirects
+  $disable_all_routed_packet_acceptance    = $sysctl::params::disable_all_routed_packet_acceptance
+  $disable_routed_packet_acceptance        = $sysctl::params::disable_routed_packet_acceptance
+  $disable_all_icmp_redirects              = $sysctl::params::disable_all_icmp_redirects
+  $disable_icmp_redirects                  = $sysctl::params::disable_icmp_redirects
+  $disable_all_secure_icmp_redirects       = $sysctl::params::disable_all_secure_icmp_redirects
+  $disable_secure_icmp_redirects           = $sysctl::params::disable_secure_icmp_redirects
+  $log_all_suspicious_packets              = $sysctl::params::log_all_suspicious_packets
+  $log_suspicious_packets                  = $sysctl::params::log_suspicious_packets
+  $ignore_broadcast_requests               = $sysctl::params::ignore_broadcast_requests
+  $bad_error_message_protection            = $sysctl::params::bad_error_message_protection
+  $tcp_syn_cookies                         = $sysctl::params::tcp_syn_cookies
+
