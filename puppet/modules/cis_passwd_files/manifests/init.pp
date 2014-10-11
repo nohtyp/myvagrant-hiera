@@ -37,10 +37,15 @@
 #
 class cis_passwd_files ( 
 
-$cis_passwd       = $cis_passwd_files::params::cis_passwd,
-$cis_shadow       = $cis_passwd_files::params::cis_shadow,
-$cis_group        = $cis_passwd_files::params::cis_group,
-$cis_gpasswd      = $cis_passwd_files::params::cis_gpasswd,
+$plain_text       = $cis_passwd_files::params::plain_text,
+$encrypted_text   = $cis_passwd_files::params::encrypted_text,
 ) inherits cis_passwd_files::params {
+ validate_array($plain_text) 
+ validate_array($encrypted_text)
+
+
+anchor {'::cis_passwd_files::begin': } ->
+ class {'::cis_passwd_files::config': } ->
+anchor {'::cis_passwd_files::end': }
 
 }

@@ -1,6 +1,6 @@
 class cis_at::params {
   
-  $remove_deny = true
+  $remove_deny = false 
 
 
   case $::osfamily {
