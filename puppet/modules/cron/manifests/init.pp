@@ -14,5 +14,5 @@
 
 class cron {
   include cron::install
+  include cron::allow
 }
-
